@@ -1,0 +1,169 @@
+:root{
+    scroll-behavior: auto;
+}
+
+.side{
+    position: fixed;
+    height: 100%;
+    flex-direction: row;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    width: 250px;
+    white-space: nowrap;
+} 
+.sidebar{
+    display: none;
+    height: 100%;
+
+}
+.side-box{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 0 30px;
+    white-space: nowrap;
+
+}
+.open{
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.side-box a{
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    transition: all .5s;
+    cursor: pointer;
+}
+.side-box a:hover{
+    color: brown;
+} 
+
+.open i{
+    margin-right: 10px;
+}
+#home h2{
+    color: white;
+    font-size: 60px;
+    font-weight: 500;
+}
+#home p{
+    color: white;
+}
+#home{
+    background: linear-gradient(to right,rgba(214, 46, 51 , 0.6),rgba(214, 46, 51 , 0.6)),url(../image/events-heavenly-header.jpg);
+    background-position:  center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+
+#Duration{
+    margin: 100px;
+}
+#Duration .info h3{
+    color: white;
+    font-size: 28px;
+    font-weight: 500;
+    background:#E68285 ;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 0;
+    cursor: pointer;
+}
+#Duration .info .item{
+    background-color: RGB(204, 204, 204);
+    padding: 10px;
+    line-height: 24px;
+    text-align: center;
+    display: none;
+}
+
+#Details{
+    background: linear-gradient(to right,rgba(214, 46, 51 , 0.6),rgba(214, 46, 51 , 0.6)),url(../image/invitation-2508607__340.jpg);
+    background-position: center  center;
+    background-size: 100% 100%;
+    height: 330px;
+    background-repeat: no-repeat;
+    
+}
+#Details .time{
+    background-color: transparent;
+    border: 1px white solid;
+    padding: 50px;
+    color: white;
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+}
+#Details .container{
+    padding: 100px 0;
+}
+#contact{
+    margin-top: 100px;
+}
+#contact h2{
+    font-size:35px ;
+    font-weight: 700;
+}
+#contact p{
+    font-weight: 300;
+    color: #777777;
+    text-align: center;
+}
+.form-control{
+    border-color: #ced4da !important;
+    border-radius: 0 !important;
+
+}
+.btn{
+    border-radius:0 !important ;
+}
+#contact .container{
+    padding: 100px 0;
+}
+#contact h3{
+    font-size: 18px;
+    font-weight: 900;
+}
+
+#contact .icon{
+    margin-top: 50px;
+}
+#contact .icon i{
+    margin-right: 20px;
+    color: #777777;
+}
+#contact .icon p{
+    margin-bottom: 35px;
+    font-weight: 400;
+}
+#contact .social{
+    margin-top: 60px;
+}
+#contact .social i{
+    color: #777777;
+    border: 1px solid #777777;
+    padding: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+#contact .social i:hover{
+    color: white;
+    background-color: red;
+    border-color: transparent;
+}
